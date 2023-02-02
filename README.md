@@ -1,0 +1,1 @@
+These are collection of examples and exercises ecountered during the course.

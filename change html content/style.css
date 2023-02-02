@@ -1,0 +1,20 @@
+h1 {
+    color:red;
+    background-color:lightGreen;
+    border:12px solid violet;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+  }
+  
+  p, h1 {
+    font-family: cursive 
+  }
+  
+  p, img {
+    text-align: center;
+  }
+
+  button {
+    margin-left: 500px;
+  }
