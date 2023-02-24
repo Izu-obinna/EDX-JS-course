@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple input field validation</title>
+</head>
+<body>
+    
+    <h1>Simple input field validation using the 'input' event</h1>
+    <p>Just type a name in the input field and see what happens!</p>
+
+  <label>
+    <span>Name (required):</span>
+    <input type="text" 
+           name="nom" 
+           maxlength="32" 
+           required
+           oninput = "validateName(this)">
+  </label>
+    <p>
+    <span id="nameTyped"></span>
+    </p>  
+
+    <script src="script.js"></script>
+</body>
+</html>

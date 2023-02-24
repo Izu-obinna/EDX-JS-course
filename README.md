@@ -1,1 +1,1 @@
-These are collection of examples and exercises ecountered during the course.
+These are collection of Projects ecountered during the course.

@@ -1,0 +1,14 @@
+button {
+    margin: 2rem 0 0 27rem;
+}
+
+#users {
+    margin-left: 30rem;
+}
+
+table {
+    margin-top: 20px;
+  }
+  table, tr, td {
+    border: 1px solid;
+  }

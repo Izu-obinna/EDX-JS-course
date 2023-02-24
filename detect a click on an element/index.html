@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>JavaScript and mousemove events</title>
+    <title>detect mouse clicks on elements</title>
 </head>
 <body>
     
-    <p>This is a canvas, move the mouse inside it:</p>
+    <button id="button1" onclick="processClick(event)">Button1</button>
 
-    <canvas id="myCanvas" width="578" height="200"></canvas>
+    <div id="myDiv" onclick="processClick(event)">Click also on this div!</div>
+
+    <div id="clicks"></div>
 
     <script src="script.js"></script>
 </body>

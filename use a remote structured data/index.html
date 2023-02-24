@@ -5,14 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>JavaScript and mousemove events</title>
+    <title>Working with remote data</title>
 </head>
 <body>
     
-    <p>This is a canvas, move the mouse inside it:</p>
+    <button onclick="search();">Get remote list of users' names and emails using the fetch API</button>
 
-    <canvas id="myCanvas" width="578" height="200"></canvas>
+    <div id="users"></div>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/0.10.1/fetch.js"></script>
     <script src="script.js"></script>
 </body>
 </html>

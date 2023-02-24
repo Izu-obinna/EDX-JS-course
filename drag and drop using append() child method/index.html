@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Drag and drop</title>
+</head>
+<body>
+    
+    <p id="text" ondragstart="drag(this, event)">Drag and drop browser images in a zone:</p><br/>
+    <img src="https://mainline.i3s.unice.fr/mooc/ABiBCwZ.png" id="cr" 
+         ondragstart="drag(this, event)" alt="Logo Chrome">
+    <img src="https://mainline.i3s.unice.fr/mooc/n7xo93U.png" id="ff" 
+         ondragstart="drag(this, event)" alt="Logo Firefox">
+    <img src="https://mainline.i3s.unice.fr/mooc/ugUmuGQ.png" id="ie" 
+         ondragstart="drag(this, event)" alt="Logo IE">
+    <img src="https://mainline.i3s.unice.fr/mooc/jfrNErz.png" id="op" 
+         ondragstart="drag(this, event)" alt="Logo Opera">
+    <img src="https://mainline.i3s.unice.fr/mooc/gDJCG0l.png" id="sf" 
+         ondragstart="drag(this, event)" alt="Logo Safari"><br/>
+  
+    <div class="box" ondragover="return false" ondrop="drop(this, event)">
+      <p>Cool Web browsers</p>
+    </div>
+    
+    <div class="box" ondragover="return false" ondrop="drop(this, event)">
+      <p>Web browsers from the 90's</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
